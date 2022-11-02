@@ -9,11 +9,11 @@ import Page1 from "./components/Page1";
 function App() {
   return (
     <div className="App">
+      <Navi />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/page1" element={<Page1 />} />
       </Routes>
-      <Navi />
     </div>
   );
 }
